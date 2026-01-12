@@ -1,0 +1,37 @@
+output_dir: "outputs_glue_axes/run_S_symmetry"
+random_seed: 12345
+
+grid:
+  W_coh_values: [50]
+  N_values: [1, 16]
+  ensembles: 64
+  steps: 4000
+  burn_in: 400
+
+hop_coherence:
+  form: "power_law"
+  alpha: 1.0
+  k_prefactor: 2.0
+  memory_depth: 1
+
+shared_bias:
+  lambda_bias: 0.0
+
+phase_lock:
+  lambda_phase: 0.0
+  theta_join: 0.3
+  theta_break: 1.5
+  omega_0: 0.1
+  noise_sigma: 0.0
+
+domains:
+  n_initial_domains: 1
+  lambda_domain: 0.0
+  merge_threshold: 0.8
+  split_threshold: 0.3
+  min_domain_size: 1
+
+diagnostics:
+  store_states: true
+  compute_lockstep: true
+  compute_psd: false

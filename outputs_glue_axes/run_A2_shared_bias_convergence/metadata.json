@@ -1,0 +1,51 @@
+{
+  "random_seed": 54321,
+  "grid": {
+    "W_coh_values": [
+      20,
+      50,
+      100
+    ],
+    "N_values": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "ensembles": 128,
+    "steps": 8000,
+    "burn_in": 800
+  },
+  "hop_coherence": {
+    "form": "power_law",
+    "alpha": 1.0,
+    "k_prefactor": 2.0,
+    "memory_depth": 1
+  },
+  "shared_bias": {
+    "enabled": true,
+    "lambda_bias": 0.3
+  },
+  "phase_lock": {
+    "enabled": false,
+    "lambda_phase": 0.0,
+    "theta_join": 0.3,
+    "theta_break": 1.5,
+    "omega_0": 0.1,
+    "noise_sigma": 0.05
+  },
+  "domains": {
+    "enabled": true,
+    "n_initial_domains": 4,
+    "lambda_domain": 0.3,
+    "merge_threshold": 0.8,
+    "split_threshold": 0.3,
+    "min_domain_size": 2
+  },
+  "diagnostics": {
+    "store_states": true,
+    "compute_lockstep": true,
+    "compute_psd": false
+  }
+}
