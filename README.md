@@ -223,3 +223,16 @@ grids), the recommended approach is to:
 1. Clone an existing config as a starting point;
 2. Change as little as possible (ideally only one or two parameters);
 3. Give the new run a clear `run_id` and document it in a new RUN\_REPORT.
+---
+
+## 8. Related BCQM V paper
+
+This repository provides the glue–axes simulations used in the fifth paper of the
+Boundary–Condition Quantum Mechanics programme:
+
+- P.~M.~Ferguson, *Boundary–Condition Quantum Mechanics V: Lockstep bundles and emergent time*,
+  Zenodo record \href{https://doi.org/10.5281/zenodo.18233747}{doi:10.5281/zenodo.18233747}.
+
+If you use this code in your own work, please cite both the BCQM~V paper and this
+code repository (see the accompanying `CITATION.cff` once populated).
+
