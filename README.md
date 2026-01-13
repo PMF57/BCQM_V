@@ -233,6 +233,10 @@ Boundary–Condition Quantum Mechanics programme:
 - P.~M.~Ferguson, *Boundary–Condition Quantum Mechanics V: Lockstep bundles and emergent time*,
   Zenodo record \href{https://doi.org/10.5281/zenodo.18233747}{doi:10.5281/zenodo.18233747}.
 
-If you use this code in your own work, please cite both the BCQM~V paper and this
-code repository (see the accompanying `CITATION.cff` once populated).
+If you use this code in your own work, please cite both:
+
+- the BCQM~V paper (Zenodo record \href{https://doi.org/10.5281/zenodo.18233747}{doi:10.5281/zenodo.18233747}), and
+- this software record (Zenodo code DOI \href{https://doi.org/10.5281/zenodo.18234061}{doi:10.5281/zenodo.18234061}).
+
+The repository also includes a `CITATION.cff` file with the same metadata.
 

@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: >-
+  If you use this code for research, teaching, or derivative work, please cite
+  both this software and the associated BCQM V paper.
+title: bcqm_glue_axes: BCQM V glue-axis bundle simulations
+version: 1.0.0
+type: software
+authors:
+  - family-names: Ferguson
+    given-names: Peter M.
+    orcid: https://orcid.org/0009-0006-6260-5058
+repository-code: https://github.com/PMF57/bcqm_glue_axes
+license: MIT
+keywords:
+  - BCQM
+  - Boundary-Condition Quantum Mechanics
+  - inertial noise
+  - glue axes
+  - lockstep
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.18234061
+abstract: >-
+  bcqm_glue_axes is a small, YAML-driven simulator implementing hop-based
+  event-thread bundles with four glue axes (hop coherence, shared bias, phase
+  locking, domains) and an additional cadence-disorder channel. It provides the
+  A-series, C-series and V-series runs used in the BCQM V paper to map out the
+  bundle phase diagram: diffusive single threads, stiff particle-like bundles,
+  and high-lockstep background regimes. The repository includes configuration
+  files, analysis scripts, plotting utilities, and per-run RUN_REPORT notes that
+  summarise the key diagnostics.
+preferred-citation:
+  type: article
+  title: Boundary-Condition Quantum Mechanics V: Lockstep bundles and emergent time
+  authors:
+    - family-names: Ferguson
+      given-names: Peter M.
+      orcid: https://orcid.org/0009-0006-6260-5058
+  year: 2026
+  doi: 10.5281/zenodo.18233747
+  journal: Zenodo
