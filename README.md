@@ -199,13 +199,10 @@ A typical BibTeX entry for the code might look like:
   title        = {BCQM V glue-axes bundle code (bcqm_glue_axes)},
   year         = {2026},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.xxxxxxx},
-  url          = {https://doi.org/10.5281/zenodo.xxxxxxx}
+  doi          = {10.5281/zenodo.18234061},
+  url          = {https://doi.org/10.5281/zenodo.18234061}
 }
 ```
-
-(Replace `xxxxxxx` with the actual DOI and keep the repo’s `CITATION.cff`
-in sync.)
 
 ---
 
