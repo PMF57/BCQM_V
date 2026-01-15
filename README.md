@@ -204,6 +204,9 @@ A typical BibTeX entry for the code might look like:
 }
 ```
 
+(Replace `xxxxxxx` with the actual DOI and keep the repo’s `CITATION.cff`
+in sync.)
+
 ---
 
 ## 7. Provenance and reproducibility
